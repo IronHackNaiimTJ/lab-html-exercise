@@ -4,12 +4,15 @@ body {
   font-family: "Poppins";
   padding: 0 25px;
 }
+
 header > div {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid lightgray;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 nav {
   width: 600px;
@@ -26,40 +29,32 @@ nav a {
   color: black;
 }
 .blackHeart {
-  width: 40px;
+  width: 25px;
   margin-right: 1rem;
 }
 
 .header-2 {
   border-bottom: 1px solid lightgray;
-  padding: 0 25px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 2rem;
+  margin-top: 0rem;
 }
 .imgNpm {
-  width: 110px;
+  width: 70px;
   margin-right: 1rem;
 }
 
 .header-2 div {
   flex-grow: 1;
   flex: auto;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  width: 50%;
+  padding-top: 1px;
+  padding-bottom: 1px;
   position: relative;
 }
 .header-2 form {
-  scroll-margin-top: 10rem;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  padding-bottom: 0;
   border-style: none;
   border-width: 0;
-  position: relative;
   display: flex;
   border-color: rgba(0, 0, 0, 0.1);
 }
@@ -74,15 +69,15 @@ nav a {
   align-items: center;
 }
 .imgSearch {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   padding-right: 0.25rem;
   padding-left: 1rem;
   float: left;
 }
 .header-2 input {
   background: none;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 0px;
   border: none;
   outline: unset;
@@ -94,12 +89,10 @@ nav a {
 .header-2 button {
   letter-spacing: 0.3px;
   outline-offset: 3px;
-  font-size: 23px;
+  font-size: 14px;
   background-color: #fb3e44;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1.5rem;
   color: white;
   cursor: pointer;
   border: 0;
@@ -107,6 +100,8 @@ nav a {
 .header-2 nav {
   width: auto;
   font-weight: lighter;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .btnJoin {
@@ -139,12 +134,14 @@ section {
   margin-bottom: 2rem;
   font-size: 5rem;
   line-height: 1.25;
+  margin-top: 2rem;
 }
 .section1 p {
   margin: 0.67rem 0;
   margin-right: auto;
   margin-left: auto;
-  max-width: 32rem;
+  max-width: 34rem;
+  font-size: 20px;
 }
 .section1 nav {
   margin: 3rem 0;
@@ -169,6 +166,7 @@ section {
 .navSeePlans {
   background-color: #fb3e44;
   color: white;
+  box-shadow: 8px 8px rgba(255, 0, 0, 0.2);
 }
 .navJoin {
   background-color: white;
@@ -187,21 +185,26 @@ section {
 .section2 img {
   width: 16rem;
 }
-.section2 h2 {
-  font-size: 2rem;
+
+.highlight {
+  font-size: 36px;
   font-weight: 900;
   background-color: #ffebb5;
   margin-top: 4rem;
   margin-bottom: 2rem;
+  padding: 0 2rem;
+  /* border-radius: 0 0.8em 0 0.8em; */
 }
+
 .section2 p {
   margin: 0.67rem 0;
   margin-right: auto;
   margin-left: auto;
-  max-width: 50rem;
+  max-width: 48rem;
   font-weight: lighter;
   line-height: 1.25;
 }
+
 .section3 {
   background-color: white;
   padding-top: 4rem;
@@ -215,7 +218,7 @@ section {
   text-align: left;
 }
 .section3 div {
-  padding: 1rem;
+  padding: 2rem;
   width: 16rem;
 }
 .section3 img {
@@ -257,4 +260,5 @@ footer nav a {
   padding-top: 1rem;
   background-color: black;
   color: white;
+  box-shadow: 8px 8px rgba(0, 0, 0, 0.2);
 }
