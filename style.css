@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+  font-family: "Poppins";
+  padding: 0 25px;
+}
+header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  margin-top: 2rem;
+}
+nav {
+  width: 600px;
+  font-weight: bold;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+.blackHeart {
+  width: 40px;
+  margin-right: 1rem;
+}
+
+.header-2 {
+  border-bottom: 1px solid lightgray;
+  padding: 0 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.imgNpm {
+  width: 110px;
+  margin-right: 1rem;
+}
+
+.header-2 div {
+  flex-grow: 1;
+  flex: auto;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 50%;
+  position: relative;
+}
+.header-2 form {
+  scroll-margin-top: 10rem;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-style: none;
+  border-width: 0;
+  position: relative;
+  display: flex;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+.divForm {
+  flex-grow: 1;
+  background-color: #f2f2f2;
+  position: relative;
+}
+.divSearch {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+.imgSearch {
+  width: 25px;
+  height: 25px;
+  padding-right: 0.25rem;
+  padding-left: 1rem;
+  float: left;
+}
+.header-2 input {
+  background: none;
+  font-size: 16px;
+  letter-spacing: 0px;
+  border: none;
+  outline: unset;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 0;
+  width: calc(100% - 10px);
+}
+.header-2 button {
+  letter-spacing: 0.3px;
+  outline-offset: 3px;
+  font-size: 23px;
+  background-color: #fb3e44;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: white;
+  cursor: pointer;
+  border: 0;
+}
+.header-2 nav {
+  width: auto;
+  font-weight: lighter;
+}
+
+.btnJoin {
+  letter-spacing: 0.3px;
+  outline-offset: 3px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  border: 1px solid #f2f2f2;
+  font-weight: bold;
+}
+section {
+  background-color: #f8f4f4;
+}
+
+.section1 {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  font-weight: bold;
+}
+.section1 h2 {
+  margin-bottom: 2rem;
+  font-size: 5rem;
+  line-height: 1.25;
+}
+.section1 p {
+  margin: 0.67rem 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 32rem;
+}
+.section1 nav {
+  margin: 3rem 0;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: small;
+}
+.section1 nav a {
+  letter-spacing: 0.3px;
+  outline-offset: 3px;
+  font-size: 20px;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  cursor: pointer;
+  border: 0;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.navSeePlans {
+  background-color: #fb3e44;
+  color: white;
+}
+.navJoin {
+  background-color: white;
+}
+.section2 {
+  background-color: white;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  font-weight: bold;
+}
+.section2 img {
+  width: 16rem;
+}
+.section2 h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  background-color: #ffebb5;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+.section2 p {
+  margin: 0.67rem 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 50rem;
+  font-weight: lighter;
+  line-height: 1.25;
+}
+.section3 {
+  background-color: white;
+  padding-top: 4rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: left;
+}
+.section3 div {
+  padding: 1rem;
+  width: 16rem;
+}
+.section3 img {
+  width: 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+.section3 h2 {
+  font-size: 16px;
+  color: red;
+  font-weight: bold;
+}
+.section3 p {
+  font-weight: lighter;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+footer nav {
+  margin: 3rem 0;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: small;
+}
+footer nav a {
+  letter-spacing: 0.3px;
+  outline-offset: 3px;
+  font-size: 20px;
+  padding-left: 9rem;
+  padding-right: 9rem;
+  cursor: pointer;
+  border: 0;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  background-color: black;
+  color: white;
+}
